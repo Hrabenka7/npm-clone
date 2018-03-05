@@ -1,0 +1,323 @@
+/* ################### IMPORTS ################### */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee|Open+Sans');
+
+
+
+body {
+    margin: 0;
+}
+
+.clearfix{
+    clear:both;
+}
+
+/* ################### NAVBAR ################### */
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    height: 35px;
+    font-family:  'Mukta Mahee', sans-serif;
+    font-size: 17px;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.heart {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-right {
+    float: right;
+    display: inline-block;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.navbar-right li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* ################### HEADER ################### */
+header {
+    background: url(images/city-scape.svg);
+    height: 440px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+/* HEADER PANEL */
+.header-panel {
+    display: block;
+    padding: 20px;
+}
+
+.logo-npm {
+    display: inline-block;
+    width: 8%;
+}
+
+.searchbar {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    margin: 0;
+   
+}
+
+.searchbar input {
+    width: 93%;
+    background-color: rgb(31, 82, 111);
+    height: 35px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-right: none;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    
+}
+
+i.fa-search {
+    background-color: rgb(31, 82, 111);
+    color: white;
+    font-size: 17px;
+
+    
+}
+
+.searchbar button {
+    display: inline-block;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid rgba(255,255,255,0.2);
+    height: 47px;
+    width: 47px;
+    padding-bottom: 1.7px;
+    
+}
+
+.searchbar-text {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.searchbar-text a, .searchbar-text p {
+  color: white;
+  text-decoration:  none;
+  font-family:  'Open Sans', sans-serif;
+  font-size: 14px;
+    
+}
+
+.logo-bear {
+    padding-top: 5px;
+}
+
+
+/* HEADER TEXT */
+.amazing-things {
+    margin-top: 0;
+    margin-left:200px;
+    width: 40%;
+}
+
+.amazing-things h1  {
+    color: white;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.amazing-things p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.amazing-things button, .amazing-things a {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(240, 146, 51);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-decoration: none;
+    
+} 
+
+
+/* ################### SECTION 1 ################### */
+.collaboration {
+    background-color: rgb(39, 53, 71);
+    margin: 0 auto;
+    height: 600px;
+}
+
+.collaboration-content {
+     padding-top: 50px; 
+     margin-left: 200px;
+     display: inline-block;
+    
+}
+
+.collaboration-image {
+  display: inline-block;
+  
+
+}
+
+.collaboration-text {
+    color:white;
+    float: right;
+    padding-top: 50px;
+    padding-left: 50px;
+
+    
+}
+
+.collaboration-text h1  {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.collaboration ul > li  {
+    font-size: 17px;
+    line-height: 38px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.collaboration button {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(203, 56, 55);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    
+}
+
+.collaboration p {
+    font-size: 17px;
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.collaboration a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white; 
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ################### SECTION 2 ################### */
+.what-is-npm {
+    background: url(images/forklift.svg);
+    background-size: cover; 
+    height: 500px;   
+    color: white; 
+    position: relative;
+}
+
+.what-is-npm-content {
+    position: absolute;
+    margin-top: 70px;
+    margin-left:200px;
+    width: 25%;
+}
+
+.what-is-npm h1 {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.what-is-npm p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.what-is-npm button, .what-is-npm a {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(49, 68, 88);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-decoration: none;
+    
+}
+
+/* ################### SECTION 3 ################### */   
+.building-blocks {
+    height: 600px;
+}
+
+
+.building-blocks-content {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(135, 145, 156);
+}
+
+
+.building-blocks-columns a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+
+.building-blocks-toptext {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.building-blocks-toptext h1 {
+    color: rgb(83, 88, 98);
+    font-size: 36px;
+    padding-top: 30px;
+           
+}
+
+.building-blocks h3 {
+    color: rgb(83, 88, 98);
+
+}
+
+.col {
+    float: left;   
+}
+
+.col-middle {
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.building-blocks-col {
+    width: 25%;
+    text-align: center;
+}
+
